@@ -1,37 +1,51 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600&display=swap');
 
 /*Color*/
+:root {
+    --primary-blue: hsl(218, 44%, 22%);
+    --primary-cyan: hsl(178, 100%, 50%);
+
+    --bg-main: hsl(217, 54%, 11%);
+    --bg-card: hsl(216, 50%, 16%);
+
+    --color-line: hsl(215, 32%, 27%);
+
+    --white: #fff;
+    --color-paragraph:#a1b9dba8;
+  }
+
 .color-primary-blue
 {
-  color: hsl(218, 44%, 22%);
+  color: var(--primary-blue);
 }
 .color-primary-cyan
 {
-  color: hsl(178, 100%, 50%)
+  color: var(--primary-cyan);
 }
 .bg-main
 {
-  background-color: hsl(217, 54%, 11%)
+  background-color: var(--bg-main);
 }
 .bg-card
 {
-  background-color: hsl(216, 50%, 16%)
+  background-color: var(--bg-card);
 }
+
 .color-line
 {
-  color: hsl(215, 32%, 27%)
+  color: var(--color-line);
 }
-.back-white
+.bg-white
 {
-  background-color: hsl(0, 0%, 100%);
+  background-color: var(--white);
 }
 .white
 {
-  color: hsl(0, 0%, 100%);
+  color: var(--white);
 }
 .color-paragraph
 {
-    color: #a1b9dba8;
+    color: var(--color-paragraph);
 }
 
 
@@ -140,11 +154,11 @@ main
 
 .ntf-section-info a
 {
-    color: white;
+    color: var(--white);
 }
 .ntf-section-info a:hover
 {
-  color: hsl(178, 100%, 50%);
+  color: var(--primary-cyan);
 }
 .ntf-section-info p{
     font-weight:300;
@@ -155,7 +169,7 @@ main
     gap: 5px;
 }
 .ntf-line {
-    border-bottom: 0.1px solid hsl(215, 32%, 27%);
+    border-bottom: 0.1px solid var(--color-line);
 }
 .creator-info
 {
@@ -167,7 +181,7 @@ main
    
     width:35px;
     height:35px; 
-    border: 1px solid white; 
+    border: 1px solid var(--white); 
     border-radius: 50%;
 }
 
@@ -177,12 +191,12 @@ footer *
 }
 footer a
 {
-    color: white;
+    color: var(--white);
 }
 
 footer a:hover
 {
-  color: hsl(178, 100%, 50%);
+  color: var(--primary-cyan);
 }
 @media all and (min-width: 0px) and (max-width: 400px)
 {
@@ -194,4 +208,3 @@ footer a:hover
   }
 }
 
-/*# sourceMappingURL=style.css.map */
