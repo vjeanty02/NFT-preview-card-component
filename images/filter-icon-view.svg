@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1080" height="1080" viewBox="0 0 1080 1080" xml:space="preserve">
+<desc>Created with Fabric.js 4.2.0</desc>
+<defs>
+</defs>
+<rect x="0" y="0" width="100%" height="100%" fill="transparent"></rect>
+<g transform="matrix(1 0 0 1 540 540)" id="5c03332e-8015-47d5-989c-5f37758a3329"  >
+<rect style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(0,255,247); fill-opacity: 0.49; fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke"  x="-540" y="-540" rx="0" ry="0" width="1080" height="1080" />
+</g>
+<g transform="matrix(1 0 0 1 540 540)" id="3e4458e5-e03d-4809-9225-808474ca284f"  >
+</g>
+<g transform="matrix(2.06 0 0 2.06 540 540)"  >
+<g style="opacity: 1;" vector-effect="non-scaling-stroke"   >
+		<g transform="matrix(1 0 0 1 0 0)"  >
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: none; fill-rule: evenodd; opacity: 1;" vector-effect="non-scaling-stroke"  transform=" translate(-24, -24)" d="M 0 0 L 48 0 L 48 48 L 0 48 z" stroke-linecap="round" />
+</g>
+		<g transform="matrix(1 0 0 1 0 0)"  >
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke"  transform=" translate(-24, -24)" d="M 24 9 C 14 9 5.46 15.22 2 24 C 5.46 32.78 14 39 24 39 C 34.01 39 42.54 32.78 46 24 C 42.54 15.22 34.01 9 24 9 Z M 24 34 C 18.48 34 14 29.52 14 24 C 14 18.48 18.48 14 24 14 C 29.52 14 34 18.48 34 24 C 34 29.52 29.52 34 24 34 Z M 24 18 C 20.69 18 18 20.69 18 24 C 18 27.31 20.69 30 24 30 C 27.31 30 30 27.31 30 24 C 30 20.69 27.31 18 24 18 Z" stroke-linecap="round" />
+</g>
+</g>
+</g>
+</svg>

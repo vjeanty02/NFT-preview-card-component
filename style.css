@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600&display=swap');
+
+/*Color*/
+.color-primary-blue
+{
+  color: hsl(218, 44%, 22%);
+}
+.color-primary-cyan
+{
+  color: hsl(178, 100%, 50%)
+}
+.bg-main
+{
+  background-color: hsl(217, 54%, 11%)
+}
+.bg-card
+{
+  background-color: hsl(216, 50%, 16%)
+}
+.color-line
+{
+  color: hsl(215, 32%, 27%)
+}
+.back-white
+{
+  background-color: hsl(0, 0%, 100%);
+}
+.white
+{
+  color: hsl(0, 0%, 100%);
+}
+.color-paragraph
+{
+    color: #a1b9dba8;
+}
+
+
+/*Size*/
+.size18
+{
+  font-size: 18px;
+}
+
+/*display*/
+.flex
+{
+  display: flex;
+}
+.flex-between
+{
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+}
+.flex-center
+{
+  display: flex;
+  align-items: center;
+
+}
+.flex-column
+{
+  display: flex;
+  flex-direction: column;
+}
+.flex-column-center
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:space-between;
+}
+.flex-column-left
+{
+  display: flex;
+  flex-direction: column;
+  align-items:flex-start;
+
+}
+.flex-column-between
+{
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+
+}
+
+/*General*/
+* {
+  margin: 0;
+  padding: 0;
+  gap:20px;
+  font-family : 'Outfit', sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+main 
+{
+    align-items: center;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.card-ntf
+{   
+    
+  max-width: 300px;
+  border-radius: 20px;
+  margin: 20px;
+  padding: 25px;
+}
+
+
+.ntf-section-image
+{
+   position: relative;
+}
+.ntf-section-image img 
+{
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+.ntf-section-image:hover .ntf-view
+{
+    display: inline;
+    cursor: pointer;
+}
+.ntf-view
+{
+    display: none;
+    position:absolute;
+    top: 0;
+    left: 0;
+}
+
+.ntf-section-info a
+{
+    color: white;
+}
+.ntf-section-info a:hover
+{
+  color: hsl(178, 100%, 50%);
+}
+.ntf-section-info p{
+    font-weight:300;
+}
+
+.info-ntf
+{
+    gap: 5px;
+}
+.ntf-line {
+    border-bottom: 0.1px solid hsl(215, 32%, 27%);
+}
+.creator-info
+{
+    display: flex;
+    align-items: center;
+}
+.creator-info img
+{
+   
+    width:35px;
+    height:35px; 
+    border: 1px solid white; 
+    border-radius: 50%;
+}
+
+footer *
+{
+    font-size: 12px;
+}
+footer a
+{
+    color: white;
+}
+
+footer a:hover
+{
+  color: hsl(178, 100%, 50%);
+}
+@media all and (min-width: 0px) and (max-width: 400px)
+{
+  header{ 
+    display: none;
+  }
+  footer {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
