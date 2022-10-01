@@ -25,14 +25,12 @@ Users should be able to:
 - See hover states for interactive elements
 
 ### Screenshot
-
-![](./screenshot.jpg)
-
+![Screenshot](https://user-images.githubusercontent.com/61328054/193404117-b1d0f956-f375-4f1f-8891-29e14429d240.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/modern-card-component-using-css-flexbox-E5KV5lV23p)
+- Live Site URL: [Github](https://vjeanty02.github.io/NFT-preview-card-component/)
 
 ## My process
 
