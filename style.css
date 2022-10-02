@@ -108,7 +108,10 @@
   font-weight: 600;
   text-decoration: none;
 }
-
+h1
+{
+  color: transparent;
+}
 main 
 {
     align-items: center;
